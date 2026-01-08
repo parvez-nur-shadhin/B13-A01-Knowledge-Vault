@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Shared */
+
+
+
+/* Main Body */
+.inter {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+}
+header img {
+    width: 139px;
+    height: 60px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+header .navigations {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+header .navigations a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500px;  
+}
+header button {
+    font-size: 16px;
+    font-weight: 600px;
+    color: white;
+    border: none;
+    background-color: #469165;
+    padding: 12.5px 16px;
+    height: 44px;
+    width: 165px;
+    border-radius: 4px;
+}
