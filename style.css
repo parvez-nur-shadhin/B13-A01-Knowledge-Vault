@@ -46,4 +46,103 @@ header button {
     height: 44px;
     width: 165px;
     border-radius: 4px;
+    cursor: pointer;
+}
+header button:hover{
+    background-color: green;
+}
+
+#banner {
+    max-width: 1600px;
+    margin : 0px auto;
+    border: none;
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+#banner .info-banner {
+    padding: 115px 120px 180px 120px;
+}
+#banner .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banner .description h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #469165;
+    border: none;
+    background-color: white;
+    border-radius: 1000px;
+    width: 229px;
+    height: 35px;
+}
+#banner .title h1 {
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    padding-top: 16px;
+    margin: 0px;
+}
+#banner .title h1 span {
+    color: #30B868;
+}
+#banner .paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+#banner .paragraph p {
+    margin: 0px;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400px;
+    margin: 0px;
+    padding-top: 16px;
+}
+#banner .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 0px;
+    padding-top: 32px;
+}
+#banner .buttons .banner-button-1 {
+    width: 251px;
+    height: 51px;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600px;
+    cursor: pointer;
+}
+#banner .buttons .banner-button-1:hover {
+    background-color: green;
+}
+#banner .buttons .banner-button-2 {
+    width: 198px;
+    height: 52px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500px;
+    cursor: pointer;
+}
+#banner .buttons .banner-button-2:hover {
+    background-color: rgba(0, 0, 0, 0.428);
 }
