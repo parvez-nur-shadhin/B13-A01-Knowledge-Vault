@@ -14,6 +14,8 @@
 }
 
 header {
+    width: 1600px;
+    margin: 0px auto;
     display: flex;
     justify-content: space-around;
     background-color: white;
@@ -74,6 +76,7 @@ header button:hover{
 }
 #banner .description h5 {
     display: flex;
+    gap: 6px;
     justify-content: center;
     align-items: center;
     font-size: 16px;
@@ -85,6 +88,7 @@ header button:hover{
     width: 229px;
     height: 35px;
 }
+
 #banner .title h1 {
     color: white;
     font-size: 72px;
@@ -308,6 +312,7 @@ header button:hover{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.437);
 }
 #early-access .main-section .early-button img {
     height: 20px;
@@ -320,4 +325,47 @@ header button:hover{
 #early-access .main-section .last-line {
     padding-top: 16px;
 }
-
+footer {
+    width: 1600px;
+    margin: 0px auto;
+    border: none;
+    margin-top: 120px;
+    background-color: #001931;
+    text-align: center;
+}
+footer .up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1360px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 80px ;
+}
+footer .up .heading-logo img {
+    width: 140px;
+    height: 60px;
+}
+footer .up .right-side h4 {
+    font-size: 20px;
+    font-weight: 500px;
+    color: white;
+}
+footer .up .right-side .links {
+    display: flex;
+    gap: 16px;
+    padding-top: 16px;
+}
+footer hr {
+    border: 0.1px solid #E5E7EB;
+    color: #E5E7EB;
+    width: 1360px;
+    margin: 0px auto;
+}
+footer p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #FAFAFA;
+    padding-top:30px;
+    padding-bottom:30px;
+}
